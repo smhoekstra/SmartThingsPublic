@@ -12,7 +12,7 @@
  *
  */
 
- @Field final IntRange COLOR_TEMP_RANGE = (2200..4000)
+ @Field final IntRange COLOR_TEMP_RANGE = "(2200..4000)"
 
 metadata {
     definition (name: "TRADFRI White Color Temperature Bulb", namespace: "smartthings", author: "SmartThings", ocfDeviceType: "oic.d.light", runLocally: true, minHubCoreVersion: '000.023.00001', executeCommandsLocally: true) {
